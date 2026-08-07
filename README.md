@@ -1,5 +1,7 @@
 # React Language Switcher
 
+![banner](/banner.png)
+
 React Language Switcher is a lightweight React hook and component for adding language switching to React applications. It provides a simple way to save the user's language preference and switch between multiple languages without requiring a large internationalization library.
 
 The main goal of the project is to make language switching **quick and easy to implement** for smaller React projects where a full internationalization solution would be unnecessary.
