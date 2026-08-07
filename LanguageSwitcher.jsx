@@ -1,4 +1,4 @@
-function LanguageSwitcherComponent({ languages, language, onChange }) {
+function LanguageSwitcher({ languages, language, onChange }) {
   return (
     <select
       value={language}
