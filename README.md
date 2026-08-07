@@ -191,12 +191,6 @@ This keeps the language switcher flexible and allows it to work with any transla
 
 Personally, I use this approach on my [portfolio website](https://aidartheklutz.github.io) to make it support both the Russian and English languages. You see, for smaller React projects, adding a complete internationalization library can sometimes be excessive. React Language Switcher provides the core functionality needed for simple multilingual applications while keeping the implementation fast to integrate.
 
-It is intended for projects that need **simple language switching without the overhead of a full internationalization system**.# React Language Switcher
-
-React Language Switcher is a lightweight React hook and component for adding language switching to React applications. It provides a simple way to manage the current language, save the user's language preference, and switch between multiple languages without requiring a large internationalization library.
-
-The main goal of the project is to make language switching **quick and easy to implement** for smaller React projects where a full internationalization solution would be unnecessary.
-
 ## Installation
 
 Clone the repository or copy the hook and component into your React project.
