@@ -189,7 +189,7 @@ This keeps the language switcher flexible and allows it to work with any transla
 
 ## Why Use It?
 
-Personally, I use this approach on my [portfolio website](https://aidartheklutz.github.io) to make it support both the Russian and English languages. You see, for smaller React projects, adding a complete internationalization library can sometimes be unnecessary. React Language Switcher provides the core functionality needed for simple multilingual applications while keeping the implementation fast to integrate.
+Personally, I use this approach on my [portfolio website](https://aidartheklutz.github.io) to make it support both the Russian and English languages. You see, for smaller React projects, adding a complete internationalization library can sometimes be excessive. React Language Switcher provides the core functionality needed for simple multilingual applications while keeping the implementation fast to integrate.
 
 It is intended for projects that need **simple language switching without the overhead of a full internationalization system**.# React Language Switcher
 
