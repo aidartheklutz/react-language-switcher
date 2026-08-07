@@ -1,4 +1,3 @@
-
 # React Language Switcher
 
 React Language Switcher is a lightweight React hook and component for adding language switching to React applications. It provides a simple way to save the user's language preference and switch between multiple languages without requiring a large internationalization library.
@@ -14,6 +13,19 @@ The main goal of the project is to make language switching **quick and easy to i
 - **Reusable**: Works with any translation structure and can be integrated into different UI designs.
 - **HTML language support**: Automatically updates the document's `lang` attribute when the selected language changes.
 
+## Installation
+
+Clone the repository or copy the hook and component into your React project.
+
+`git clone https://github.com/your-username/react-language-switcher.git`
+
+Import the hook and component:
+
+```jsx
+import { useLanguage } from "./useLanguage";
+import LanguageSwitcher from "./LanguageSwitcher";
+```
+
 ## How It Works
 
 React Language Switcher consists of two parts:
@@ -22,8 +34,6 @@ React Language Switcher consists of two parts:
 - **`LanguageSwitcher`**: A ready-to-use dropdown component for selecting a language.
 
 The translation data itself is not included (the developer creates their own translation data object). This allows the library to work with any translation format or internationalization approach.
-
----
 
 ## `useLanguage`
 
@@ -190,19 +200,6 @@ This keeps the language switcher flexible and allows it to work with any transla
 ## Why Use It?
 
 Personally, I use this approach on my [portfolio website](https://aidartheklutz.github.io) to make it support both the Russian and English languages. You see, for smaller React projects, adding a complete internationalization library can sometimes be excessive. React Language Switcher provides the core functionality needed for simple multilingual applications while keeping the implementation fast to integrate.
-
-## Installation
-
-Clone the repository or copy the hook and component into your React project.
-
-`git clone https://github.com/your-username/react-language-switcher.git`
-
-Import the hook and component:
-
-```jsx
-import { useLanguage } from "./useLanguage";
-import LanguageSwitcher from "./LanguageSwitcher";
-```
 
 ## License
 
