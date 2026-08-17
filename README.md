@@ -19,7 +19,7 @@ The main goal of the project is to make language switching **quick and easy to i
 
 Clone the repository or copy the hook and component into your React project.
 
-`git clone https://github.com/your-username/react-language-switcher.git`
+`git clone https://github.com/aidartheklutz/react-language-switcher.git`
 
 Import the hook and component:
 
